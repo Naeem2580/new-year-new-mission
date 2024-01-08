@@ -2,12 +2,12 @@
 .banner-sec{
     text-align: center;
     background-image: url(image/Banner\ Image.png) ;
+    background-color: #070211, #07021100 ;
     background-repeat: no-repeat;
-    opacity: 0.5;
     width: 1300px;
-    height: 600px;
+    height: 500px;
     margin: 30px 115px;
-    border-radius: 15px;
+    border-radius:30px;
     color: white;
     padding-top: 10%;
    
@@ -28,8 +28,13 @@
     font-size: 60px;
     margin-bottom: 20px;
 }
+.header-sec{
+    width: 1515px;
+    background-color: white;
+}
 .text-sec{
     text-align: center;
+    
     
 }
 .header-taitle{
@@ -63,7 +68,7 @@
     background-image: url(image/Vectorrr.png);
     width: 1300px;
     height: 600px;
-    margin: 30px 115px;
+    margin: 70px 115px;
     border-radius: 15px;
     
     
@@ -105,15 +110,15 @@
 
 .box-sec{
     width: 1300px;
-    height: 450px;
+    height: 400px;
     background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
-    margin: 30px 115px;
+    margin: 70px 115px;
     border-radius: 15px;
     
 }
 .box-model{
-    padding-top: 12%;
+    padding-top: 6%;
 }
 .box-text{
     color: #F00;
@@ -137,24 +142,59 @@
 
 .model-sec{
     width: 1300px;
-    height: 450px;
-    background-color:#409f56;
+    height: 600px;
+    background-color:#FFF;
     display: flex;
-    margin: 30px 115px;
-    
+    margin: 30px 125px;
 
 }
 .model-box{
    display: flex;
    align-items: center;
+   justify-content: space-between;
    margin: 0 220px;
    padding: 0 30px;
     
 }
+.model-left{
+   
+  
+}
+.model{
+    color: tomato; 
+}
+.model-1{
+    font-size:45px; 
+    color: black;
+}
+.model-p{
+    font-size: 20px;
+    color: rgb(61, 55, 55);
+}
+.model-midel{
+    border: 10px solid tomato;
+    border-radius: 100%;
+}
+.model-right{
+  
+    
+}
+.right{
+    font-size: 40px;
+    color: tomato;
+}
+.right-p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(61, 55, 55);
+    
+}
 .portfolio{
     width: 1300px;
-    height: ;
-    margin: 30px 115px;
+    height: auto;
+    margin: 70px 115px;
+    background-color: #FFF;
+    
 }
 .img-sec{
 
@@ -200,23 +240,48 @@
     color: rgb(175, 165, 165);
 }
 .email{
-    padding: 10px 15px;
+    padding: 15px 20px;
     border: none;
     font-size: 15px;
-    margin-bottom: 6px;
+    position: relative;
+    border-radius:50px 0 0 50px ;
+    
+}
+.btn-class{
+    padding: 15px 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:#F00;
+    color: white;
+    border-radius: 0 50px 50px 0;
+    margin-right: 1x;
+    position: absolute;
 }
 .footer-sec{
     width: 1515px;
     height: 600px;
-    background-color: aquamarine;
+    background-color: black;
 }
 .footer-left{
     display: flex;
     justify-content: space-between;
     padding: 50px 115px;
 }
+.footer-text{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFF;
+    
+}
+.footer{
+    font-size: 25px;
+    font-weight: 500;
+    color:#FFF;
+}
 .fotter-img{
     padding: 50px 600px;
+    margin: 30px 0;
     
 
 }
@@ -225,4 +290,13 @@
     justify-content: space-between;
     padding: 50px 115px;
     
+}
+.right-text{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFF;
+}
+.icon{
+    font-size: 20px;
+    margin-right: 10px;
 }
