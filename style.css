@@ -17,6 +17,7 @@
     opacity: 1.0;
 }
 
+
 .banner-taitle{
     color: white;
     font-size: 50px;
@@ -152,10 +153,76 @@
 }
 .portfolio{
     width: 1300px;
-    height: 1070px;
-    background-color:beige;
+    height: ;
     margin: 30px 115px;
 }
 .img-sec{
-    margin: 10px;
+
+}
+
+.text{
+    font-size: 24px;
+    color: #F00;
+    font-weight: 400;
+}
+.text-1{
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+}
+.paragrap{
+    font-size: 20px;
+    color: rgb(175, 165, 165);
+    font-weight: 400;
+
+}
+.form{
+    text-align: center;
+    width: 1300px;
+    height: 600px;
+    background-color:rgba(255, 0, 0, 0.05);;
+    margin: 30px 115px;
+    border-radius: 15px;
+
+}
+.form-sec{
+    padding: 8%;
+    
+}
+.form-text{
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+}
+.form-p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(175, 165, 165);
+}
+.email{
+    padding: 10px 15px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.footer-sec{
+    width: 1515px;
+    height: 600px;
+    background-color: aquamarine;
+}
+.footer-left{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 115px;
+}
+.fotter-img{
+    padding: 50px 600px;
+    
+
+}
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 115px;
+    
 }
