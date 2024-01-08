@@ -1,0 +1,161 @@
+
+.banner-sec{
+    text-align: center;
+    background-image: url(image/Banner\ Image.png) ;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    width: 1300px;
+    height: 600px;
+    margin: 30px 115px;
+    border-radius: 15px;
+    color: white;
+    padding-top: 10%;
+   
+}
+
+.banner-sec:hover{
+    opacity: 1.0;
+}
+
+.banner-taitle{
+    color: white;
+    font-size: 50px;
+}
+
+.banner-p{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.text-sec{
+    text-align: center;
+    
+}
+.header-taitle{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header-p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.header-text{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-section{
+    background-image: url(image/Vectorrr.png);
+    width: 1300px;
+    height: 600px;
+    margin: 30px 115px;
+    border-radius: 15px;
+    
+    
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px ;
+}
+.left-taitle{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+.left-p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.left-btn{
+    padding: 10px 15px;
+    background-color: #F00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.right-img{
+    margin-top: 40px;
+}
+
+.box-sec{
+    width: 1300px;
+    height: 450px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    margin: 30px 115px;
+    border-radius: 15px;
+    
+}
+.box-model{
+    padding-top: 12%;
+}
+.box-text{
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.color{
+    color: black;
+}
+.box-btn{
+    padding: 10px 15px;
+    background-color: #F00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.model-sec{
+    width: 1300px;
+    height: 450px;
+    background-color:#409f56;
+    display: flex;
+    margin: 30px 115px;
+    
+
+}
+.model-box{
+   display: flex;
+   align-items: center;
+   margin: 0 220px;
+   padding: 0 30px;
+    
+}
+.portfolio{
+    width: 1300px;
+    height: 1070px;
+    background-color:beige;
+    margin: 30px 115px;
+}
+.img-sec{
+    margin: 10px;
+}
