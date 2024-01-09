@@ -7,7 +7,7 @@
     width: 1300px;
     height: 500px;
     margin: 30px 115px;
-    border-radius:15px;
+    border-radius:15px ;
     color: white;
     padding-top: 10%;
     backface-visibility: hidden;
@@ -194,6 +194,58 @@
     color: rgb(61, 55, 55);
     
 }
+
+.main-part{
+    width: 1300px;
+    height: auto;
+    margin: 40px 115px;
+    text-align: center;
+}
+.img-part{
+    display: flex;
+    margin-left: 45px;
+    
+}
+.part-t{
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+}
+.part-title{
+    font-size: 70px;
+    font-weight: 900;
+    color: black;
+}
+.span{
+    color: #F00;
+}
+.part-p{
+    font-size: 20px;
+}
+ .img-1{
+    width: 400px;
+    height: 400px;
+    padding-top: 10px;
+    margin-left: 80px;
+    
+    
+}
+.img-2{
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.img-3{
+    margin-left: 18px;
+ 
+}
+
+.text-part{
+    width: 1280px;
+    height: 200px;
+    background-color: red;
+    border-radius:0 0 15px 15px;
+}
+
 .portfolio{
     width: 1300px;
     height: auto;
