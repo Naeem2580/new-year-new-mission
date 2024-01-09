@@ -176,7 +176,8 @@
     color: rgb(61, 55, 55);
 }
 .model-midel{
-    border: 10px solid tomato;
+    padding: 10px;
+    border: 15px solid tomato;
     border-radius: 100%;
 }
 .model-right{
